@@ -1,6 +1,6 @@
 
 export const updateScenario = (data) => {
-    return fetch('https://paretodata.digitalglyde.com/update', {
+    return fetch('http://localhost:8001/update', {
         method: 'POST', 
         mode: 'cors',
         body: JSON.stringify(data)

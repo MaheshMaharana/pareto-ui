@@ -2,7 +2,7 @@ import json
 import os
 import datetime
 import logging
-from pareto.strategic_water_management.strategic_produced_water_optimization import (
+from .paretomodel.strategic_water_management.strategic_produced_water_optimization import (
     create_model,
     Objectives,
     solve_model,

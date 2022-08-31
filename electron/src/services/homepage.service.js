@@ -1,6 +1,6 @@
 
 export const runModel = (data) => {
-    return fetch('https://paretodata.digitalglyde.com/run_model/', {
+    return fetch('http://localhost:8001/run_model/', {
         method: 'POST', 
         mode: 'cors',
         body: JSON.stringify(data)
